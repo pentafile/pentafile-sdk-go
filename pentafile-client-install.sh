@@ -7,6 +7,4 @@ wget -O pf -q $URL
 mkdir -p $LOCAL
 mv pf $LOCAL
 chmod u+x $PF
-echo "export PATH=$PATH:$LOCAL" >> ~/.bash_profile
-source ~/.bash_profile
 echo "Pentafile client install succefull"
